@@ -1,0 +1,75 @@
+.header-container {
+    text-align: center;
+    padding: 1.2rem;
+    background-color: rgba(255, 213, 0, 0.779);
+}
+
+.header-container img {
+    width: 220px;
+}
+
+.header-container h1 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.input {
+    width: 25rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.cards-container {
+    /* background-image: url("./assets/nba-logo2.png");
+    background-size: cover; */
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    }
+
+.cards {
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cards img {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.cards h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 5px;
+}
+
+.cards ul {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    gap: 1.5rem;
+    height: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.cards li {
+    margin-right: 1.5rem;
+}
